@@ -1,0 +1,30 @@
+.categories{
+	margin-top: 35px;
+	@media (max-width: 1024.5px) {
+		margin-top: 22px;
+	}
+	a{
+		text-align: center;
+		img{
+			display: block;
+			margin: 0 auto 17px;
+			@media (max-width: 1024.5px) {
+				margin: 0 auto 10px;
+			}
+		}
+		span{
+			color: #FFF;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 17.712px;
+			line-height: normal;
+			opacity: 0.4;
+			display: block;
+			@media (max-width: 1024.5px) {
+				font-size: 14px;
+			}
+			@media (max-width: 320.5px) {
+				font-size: 12px;
+			}
+		}
+	}
+}

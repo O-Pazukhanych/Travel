@@ -1,0 +1,9 @@
+.slider{
+	margin-top: 44px;
+	@media (max-width: 768.5px) {
+		margin-top: 26px;
+	}
+	@media (max-width: 320.5px) {
+		margin-top: 14px;
+	}
+}
